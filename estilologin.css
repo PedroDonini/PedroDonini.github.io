@@ -1,0 +1,137 @@
+html,body{
+    font-family: cursive;
+    height: 100% ;
+    margin: 0 ;
+    padding: 0 ;
+}
+
+body{
+    width: 100vw ;
+    height: 100vh ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.limiter{
+    width:35% ;
+    height: 50%;
+    display: flex;
+    justify-content: space-around ;
+    align-items:center ;
+    border-radius: 10px;
+    opacity: 0.8 ;
+}
+
+.limiter:hover{
+    width:35% ;
+    height: 50%;
+    display: flex;
+    justify-content: space-around ;
+    align-items:center ;
+    border-radius: 10px;
+    opacity: 0.95 ;
+}
+
+.div-login-titulo{
+    background-color: #89fcb3;
+    height:100%;
+    width: 40%;
+    display: grid ;
+    justify-content: center ;
+    align-items: center;
+    font-size: x-large ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+b{
+    padding-top: 50px;
+    text-align: center;
+}
+
+#patinha{
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+    padding-bottom: 20px;
+}
+
+.div-login-form{
+    height: 100% ;
+    width: 60%;
+    background: #fffff7;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#login-form{
+    height:100%;
+    width:100%;
+    display: grid;
+    justify-content: space-evenly ;
+    align-items: center;
+}
+
+.div-username-form{
+    height: 100% ;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#username-form{
+    background-color: #89fcb3;
+    background-position: center;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+#username-input{
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.div-senha-form{
+    height: 100% ;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#senha-form{
+    background-color: #89fcb3;
+    background-position: center;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+#senha-input{
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.div-btn-entrar-form{
+    height: 100% ;
+    display: grid;
+    align-items: center;
+}
+
+#btn-entrar-form{
+    background-color: #89fcb3;
+    border-radius: 10px;
+    border:#89fcb3;
+    padding: 25px;
+    font-weight: 800;
+    font-size: large;
+}
+
+

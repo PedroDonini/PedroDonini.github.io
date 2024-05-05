@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro Form</title>
+        <link rel="stylesheet" type="text/css" href="estilocadastro.css">
+        <style>
+            body{
+                background: #cccccc;
+                background-image: url('https://images.unsplash.com/photo-1557495235-340eb888a9fb?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="limiter">
+            <div class="div-cadastro-titulo">
+                <img id="patinha" alt="patinha" src="https://cdn-icons-png.flaticon.com/512/12/12638.png">
+                <b>Patinhas<br>da<br>Paz!<br><br>Nossos amiguinhos ficarão felizes em te ver por aqui!</b>
+                
+            </div>
+            <div class="div-cadastro-form">
+                <form id="cadastro-form" method="get" action="login.html">
+                    <div class="div-email-form">
+                        <label id="email-form"><a>Email</a></label>
+                        <input type="email" name="email" id="email-input" placeholder="E-mail">
+                    </div>
+                    <div class="div-username-form">
+                        <label id="username-form"><a>Nome de usuário</a></label>
+                        <input type="text" name="username" id="username-input" placeholder="Nome de usuário">
+                    </div>
+                    <div class="div-senha-form">
+                        <label id="senha-form"><a>Senha</a></label>
+                        <input type="password" name="senha" id="senha-input" placeholder="Senha">
+                    </div>
+                    <div class="div-estado-form">
+                        <label id="estado-form">Estado</label>
+                        <select name="estado" id="estado-input">
+                        <option value="ac">AC</option>
+                        <option value="al">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="AM">AM</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                        </select>
+                    </div>
+                    <div class="div-tipo-usuario">
+                        <label id="tipo-usuario-form">Sou uma:</label>
+                        <input type="radio" id="pf" name="tipo-usuario" value="Pessoa Física">
+                        <label for="pf">Pessoa Física</label>
+                        <input type="radio" id="ong" name="tipo-usuario" value="ONG">
+                        <label for="ong">ONG</label>
+                    </div>
+                    <div class="div-btn-cadastrar-form">
+                        <input type="submit" name="btn-cadastrar-form" id="btn-cadastrar-form" value="Cadastrar">
+                    </div>  
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Form</title>
+        <link rel="stylesheet" type="text/css" href="estilologin.css">
+        <style>
+            body{
+                background: #cccccc;
+                background-image: url('https://images.unsplash.com/photo-1557495235-340eb888a9fb?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="limiter">
+            <div class="div-login-titulo">
+                <b>Seja bem-vindo ao<br><br>Patinhas<br>da<br>Paz!</b>
+                <img id="patinha" alt="patinha" src="https://cdn-icons-png.flaticon.com/512/12/12638.png">
+            </div>
+            <div class="div-login-form">
+                <form id="login-form" method="get" action="index.html">
+                    <div class="div-username-form">
+                        <label id="username-form"><a>Nome de usuário</a></label>
+                        <input type="text" name="username" id="username-input" placeholder="Nome de usuário">
+                    </div>
+                    <div class="div-senha-form">
+                        <label id="senha-form"><a>Senha</a></label>
+                        <input type="password" name="senha" id="senha-input" placeholder="Senha">
+                    </div>
+                    <div class="div-btn-entrar-form">
+                        <input type="submit" name="btn-entrar-form" id="btn-entrar-form" value="Entrar">
+                        <a href="cadastro.html">Não tem uma conta?Registre-se aqui</a>  
+                    </div>  
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
