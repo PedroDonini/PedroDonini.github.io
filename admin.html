@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ADMIN</title>
+        <link rel="stylesheet" type="text/css" href="estiloadmin.css">
+        <style>
+            body {
+                background: #cccccc;
+                background-image: url('https://images.unsplash.com/photo-1557495235-340eb888a9fb?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="limiter">
+            <div class="div-cadastro-titulo">
+                <img id="patinha" alt="patinha" src="https://cdn-icons-png.flaticon.com/512/12/12638.png">
+                <b>Patinhas<br>da<br>Paz!<br><br>Nossos amiguinhos ficarão felizes em te ver por aqui!</b>
+            </div>
+            <div class="div-cadastro-form">
+                <form id="cadastro-form" method="post">
+                    <div class="div-email-form">
+                        <label id="email-form"><a>Email</a></label>
+                        <input type="email" name="email" id="email-input" placeholder="E-mail">
+                    </div>
+                    <div class="div-username-form">
+                        <label id="username-form"><a>Nome de usuário</a></label>
+                        <input type="text" name="username" id="username-input" placeholder="Nome de usuário">
+                    </div>
+                    <div class="div-btn-cadastrar-form">
+                        <input type="submit" name="btn-cadastrar-form" id="btn-cadastrar-form" value="Cadastrar">
+                        <input type="button" name="btn-limpar-form" id="btn-limpar-form" value="Limpar">
+                    </div>
+                </form>
+                <input type="text" id="search-input" placeholder="Pesquisar...">
+                <button id="btn-clear-all">Excluir Todos</button>
+                <ul id="user-list"></ul>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

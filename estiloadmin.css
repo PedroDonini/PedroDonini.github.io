@@ -1,0 +1,143 @@
+html, body {
+    font-family: cursive;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.limiter {
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    opacity: 0.8;
+    background-color: white;
+    padding: 20px;
+}
+
+.limiter:hover {
+    opacity: 0.95;
+}
+
+.div-cadastro-titulo {
+    background-color: #89fcb3;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#patinha {
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+}
+
+.div-cadastro-form {
+    width: 100%;
+    background: #fffff7;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#cadastro-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div-email-form, .div-username-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#email-form, #username-form {
+    background-color: #89fcb3;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+#email-input, #username-input {
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid ;
+}
+
+.div-btn-cadastrar-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#btn-cadastrar-form, #btn-limpar-form, #btn-clear-all {
+    background-color: #89fcb3;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-weight: 800;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#btn-cadastrar-form:hover, #btn-limpar-form:hover, #btn-clear-all:hover {
+    background-color: #78e2a1;
+}
+
+#search-input {
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid ;
+    width: 100%;
+}
+
+#user-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+#user-list li {
+    background-color: #fffff7;
+    border: 1px solid #89fcb3;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#user-list li button {
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: white;
+}
+
+#user-list li button:hover {
+    background-color: #e04141;
+}
